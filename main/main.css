@@ -1,0 +1,107 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    text-align: center;
+    background-image: url(/img/corazones.jpg);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 230px;
+    background-color: rgba(162, 44, 170, 0.994);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    width: 55%;
+    text-align: center;
+    align-items: center;
+}
+
+main h1{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+}
+
+#aviso {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 99%;
+    border-radius: 10px;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(43, 208, 6);
+    border-radius: 15px;
+    height: 70px;
+    width: 200px;
+}
+
+
+.boton h2{
+    text-align: center;
+    align-items: center;
+}
+
+.boton :hover{
+    background-color: aqua;
+}
+
+#acomodar{
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: black;         /* Cambia el color del enlace */
+    text-decoration: none; /* Quita la línea subrayada */
+}
+
+
+#acomodar :hover{
+    background-color: aqua;
+}
+
+#flecha{
+    margin-top: 80px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entrada-cont-principal{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: "Funnel Sans", sans-serif;
+    background-color: rgba(162, 44, 170, 0.994);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+#fondo-gris{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#boton_de_mrd :hover{
+    background-color: aqua;
+}

@@ -1,0 +1,167 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    text-align: center;
+    background-image: url(/img/corazones.jpg);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 70%;
+    font-family: "Courgette";
+}
+
+main h1{
+    width: 25%;
+    color: rgb(209, 60, 174);
+}
+
+#titulo{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+
+#titulo1{
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+main h2{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(209, 60, 174);
+}
+
+main h3{
+    color:rgb(209, 60, 174);
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: black;
+    background-color: rgb(43, 208, 6);
+    border-radius: 15px;
+    height: 70px;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-family: "Funnel Sans", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+a :hover{
+    background-color: aqua;
+}
+
+.los_recuerdos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    height: 30%;
+    border: 2px solid black;
+    margin-top: 60px;
+}
+
+.recuerdo{
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.764);
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border: 2px solid black;
+}
+
+.recuerdo h3{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.recuerdo img{
+    width:70%;
+    height: 100%; 
+}
+
+#video-mc{
+    background-color: rgba(0, 0, 0, 0.764);
+    border: 2px solid black;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+#video-mc video{
+    width: 100%;
+    height: 100%;
+}
+
+
+#caja-mi-video{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
+
+#mi-video{
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 1401px) and (max-width: 1677px) {
+    .recuerdo h3{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1351px) and (max-width: 1400px) {
+    .recuerdo h3{
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1350px) {
+    .recuerdo h3{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .recuerdo h3{
+        font-size: 10px;
+    }
+}
+
+
+
+@media (max-width: 999px) {
+    .recuerdo{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color:rgba(0, 0, 0, 0.764);
+        margin-top: 70px;
+        margin-bottom: 70px;
+        border: 2px solid black;
+    }
+
+    .recuerdo img{
+        width: 100%;
+    }
+}
